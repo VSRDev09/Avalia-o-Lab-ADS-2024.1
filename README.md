@@ -6,8 +6,6 @@ Este repositório contém três programas desenvolvidos em linguagem C como part
 ---
 ### 1. Matrícula de Alunos em Disciplinas
 
-**Arquivo:** `matricular_aluno.c`
-
 Utiliza structs para armazenar informações de alunos e disciplinas. O programa simula a matrícula de um aluno em uma das três disciplinas disponíveis (Português, Matemática, História).
 
 **Funcionalidades:**
@@ -16,8 +14,6 @@ Utiliza structs para armazenar informações de alunos e disciplinas. O programa
 
 ---
 ### 2. Inversão de Data
-
-**Arquivo:** `inverter_data.c`
 
 Este programa lê uma data no formato `dd/mm/aaaa`, inverte a ordem para `aaaa/mm/dd` e exibe a nova e a antiga data.
 
@@ -30,8 +26,6 @@ Data Original: 22/05/2025
 ```
 ### 3. Remoção de Caracteres Especiais
 
-**Arquivo:** `remove_caracteres_especiais.c`
-
 Este programa lê uma sequência de caracteres e remove todos os caracteres especiais, imprimindo apenas letras (maiúsculas e minúsculas).
 
 **Exemplo:**
@@ -39,22 +33,6 @@ Este programa lê uma sequência de caracteres e remove todos os caracteres espe
 Entrada: a#B3!xY$
 Saída: aBxY
 ```
-## 🛠️ Compilação e Execução
-
-Para compilar qualquer um dos programas, use um compilador C (como `gcc`):
-
-```bash
-gcc nome_do_arquivo.c -o programa
-./programa
-```
-
-Exemplo:
-
-```bash
-gcc remove_caracteres_especiais.c -o limpa
-./limpa
-
----
 
 ## 💡 Autor
 
